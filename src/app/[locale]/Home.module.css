@@ -1,0 +1,72 @@
+.servicesGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.featuredSection {
+    background-color: #f9f9f9;
+}
+
+.productsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.viewAllContainer {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.projectsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 2rem;
+}
+
+.projectCard {
+    position: relative;
+    height: 300px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.projectImage {
+    object-fit: cover;
+}
+
+.projectOverlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+    padding: 1.5rem;
+    color: white;
+}
+
+.projectTitle {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.projectSubtitle {
+    opacity: 0.9;
+}
+
+.featuresSection {
+    text-align: center;
+}
+
+.featuresGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.featureTitle {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
