@@ -76,3 +76,31 @@
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(212, 160, 23, 0.3);
 }
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+    .imageWrapper {
+        height: 200px;
+    }
+
+    .content {
+        padding: 1rem;
+    }
+
+    .category {
+        font-size: 0.75rem;
+    }
+
+    .title {
+        font-size: 1.1rem;
+    }
+
+    .price {
+        font-size: 1.1rem;
+    }
+
+    .addToCartBtn {
+        padding: 8px;
+        font-size: 0.875rem;
+    }
+}

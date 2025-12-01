@@ -66,7 +66,20 @@
     display: none;
 }
 
+.logoImage {
+    object-fit: contain;
+}
+
+/* Mobile Responsive Styles */
 @media (max-width: 768px) {
+    .navContainer {
+        height: 70px;
+    }
+
+    .logo {
+        font-size: 1.25rem;
+    }
+
     .navLinks {
         display: none;
     }
@@ -74,8 +87,12 @@
     .mobileMenuBtn {
         display: block;
     }
-}
 
-.logoImage {
-    object-fit: contain;
+    .actions {
+        gap: 0.5rem;
+    }
+
+    .iconBtn {
+        padding: 0.4rem;
+    }
 }

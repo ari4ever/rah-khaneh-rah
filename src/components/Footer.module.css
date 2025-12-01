@@ -48,3 +48,34 @@
     color: #ccc;
     line-height: 1.6;
 }
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+    .footer {
+        padding: 3rem 0 1.5rem;
+    }
+
+    .grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .column h3 {
+        font-size: 1.1rem;
+        margin-bottom: 1rem;
+    }
+
+    .column li {
+        margin-bottom: 0.5rem;
+    }
+
+    .bottom {
+        padding-top: 1.5rem;
+        font-size: 0.8rem;
+    }
+
+    .description {
+        font-size: 0.9rem;
+    }
+}
